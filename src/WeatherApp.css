@@ -143,9 +143,9 @@ button:hover {
 
 @media (max-width: 768px) {
   .weather-app {
-    width: 90%;
-    max-width: 400px;
-    padding: 22px;
+    width: 100%;
+    max-width: 520px;
+    padding: 26px;
   }
 
   .weather-app h2 {
@@ -153,9 +153,10 @@ button:hover {
   }
 
   .info-box .temperature {
-    font-size: 44px;
+    font-size: 46px;
   }
 }
+
 
 @media (max-width: 480px) {
   body {
