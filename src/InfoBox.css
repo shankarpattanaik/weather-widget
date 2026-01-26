@@ -1,7 +1,17 @@
 .Card {
   display: flex;
   justify-content: center;
-  align-items: center;
-  text-align: center;
   margin-top: 15px;
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

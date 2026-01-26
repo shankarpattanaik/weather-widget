@@ -18,7 +18,7 @@ export default function WeatherApp() {
   };
   return (
     <div className="weather-app">
-      <h2>Weather App</h2>
+      <h2>Weather Widget</h2>
       <SearchBox className="search-box" updateInfo={updateInfo} />
       <InfoBox className="info-box" info={weatherInfo} />
       <footer className="footer">

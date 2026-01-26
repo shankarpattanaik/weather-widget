@@ -21,7 +21,6 @@ export default function SearchBox({ updateInfo }) {
         feelsLike: jsonResponse.main.feels_like,
         weather: jsonResponse.weather[0].description,
       };
-      console.log(result);
       return result;
     } catch (err) {
       throw err;
@@ -33,7 +32,6 @@ export default function SearchBox({ updateInfo }) {
   let handleSubmit = async (evt) => {
     try {
       evt.preventDefault();
-      console.log(city);
       setCity("");
       let newInfo = await getWeatherInfo();
       updateInfo(newInfo);
