@@ -155,7 +155,7 @@ button:hover {
 @media (max-width: 480px) {
   .weather-app {
     width: calc(100% - 20px);
-    margin: 10px 10px;
+    margin: 10px auto 0;
     padding: 30px;
     border-radius: 20px;
   }
