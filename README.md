@@ -1,27 +1,38 @@
-🌦️ Weather App (React + Material UI + OpenWeather API)
+# 🌦️ Weather App (React + Material UI + OpenWeather API)
 
-A modern, responsive weather application built with React.js, Material UI (MUI), and the OpenWeather API. The app allows users to search for any city and view real-time weather information with a clean and intuitive UI.
+A modern, responsive weather application built with **React.js**, **Material UI (MUI)**, and the **OpenWeather API**. Users can search for any city and view real-time weather information through a clean and intuitive interface.
 
-✨ Features
+## 🔗 Live Demo
 
-🌍 Search weather by city name
+Check out the live version of the app here:  
+👉 [Your Live Demo Link](https://your-live-demo-link.com)
 
-🌡️ Displays temperature, humidity, wind speed, and weather conditions
+## ✨ Features
 
-🎨 Clean and responsive UI using Material UI
+- 🌍 Search weather by city name  
+- 🌡️ Displays temperature, humidity, wind speed, and weather conditions  
+- 🎨 Clean and responsive UI using Material UI  
+- ⚡ Fast and lightweight React application  
+- 🔄 Real-time data fetched from OpenWeather API  
 
-⚡ Fast and lightweight React application
+## 🛠️ Tech Stack
 
-🔄 Real-time data from OpenWeather API
+- **Frontend:** React.js  
+- **UI Library:** Material UI (MUI)  
+- **API:** OpenWeather API  
+- **HTTP Client:** Fetch API  
+- **Build Tool:** Vite  
 
-🛠️ Tech Stack
+## 📥 Installation
 
-Frontend: React.js
+To run the project locally:
 
-UI Library: Material UI (MUI)
+1. Clone the repository
+2. cd weather-app
+3. npm install
+4. npm run dev
 
-API: OpenWeather API
+## 🤝 Contributing
 
-HTTP Client: Fetch API
-
-Build Tool: Vite
+Contributions are welcome!
+Feel free to fork the repository, make changes, and submit a pull request.
